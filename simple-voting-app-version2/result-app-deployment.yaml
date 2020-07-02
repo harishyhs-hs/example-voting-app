@@ -5,7 +5,7 @@ metadata:
   labels:
     app: demo-votting-app
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       name: result-app-pod
